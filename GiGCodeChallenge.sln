@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GiGCodeChallenge.Domain", "GiGCodeChallenge.Domain\GiGCodeChallenge.Domain.csproj", "{31E4789B-754F-4673-8CE3-B5070371FC09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GiGCodeChallenge.Services", "GiGCodeChallenge.Services\GiGCodeChallenge.Services.csproj", "{B7D337D5-5DBE-44B2-8FF9-A1A7B01E00FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GiGCodeChallenge.Tests", "GiGCodeChallenge.Tests\GiGCodeChallenge.Tests.csproj", "{9BA090A6-7920-4328-8266-C8E1F4F85BFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GiGCodeChallenge.KafkaCarsProducer", "GiGCodeChallenge.KafkaCarsProducer\GiGCodeChallenge.KafkaCarsProducer.csproj", "{8CE6DC6B-D366-439C-8070-448282083A32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GiGCodeChallenge.KafkaCarsConsumer", "GiGCodeChallenge.KafkaCarsConsumer\GiGCodeChallenge.KafkaCarsConsumer.csproj", "{566C1423-3D74-4EB0-99E0-EA2B255769D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker-Kafka-Env", "Docker-Kafka-Env", "{47520E57-FEB1-4C81-A678-813EF0C8E355}"
+	ProjectSection(SolutionItems) = preProject
+		Docker-Kafka-Env\docker-compose.yml = Docker-Kafka-Env\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{9115A32D-16E1-4DC4-954A-0551C16797CE}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\GiG Code Challenge.pdf = Documents\GiG Code Challenge.pdf
+		Documents\Readme.pdf = Documents\Readme.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31E4789B-754F-4673-8CE3-B5070371FC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E4789B-754F-4673-8CE3-B5070371FC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E4789B-754F-4673-8CE3-B5070371FC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E4789B-754F-4673-8CE3-B5070371FC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D337D5-5DBE-44B2-8FF9-A1A7B01E00FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D337D5-5DBE-44B2-8FF9-A1A7B01E00FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D337D5-5DBE-44B2-8FF9-A1A7B01E00FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D337D5-5DBE-44B2-8FF9-A1A7B01E00FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA090A6-7920-4328-8266-C8E1F4F85BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA090A6-7920-4328-8266-C8E1F4F85BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA090A6-7920-4328-8266-C8E1F4F85BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA090A6-7920-4328-8266-C8E1F4F85BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE6DC6B-D366-439C-8070-448282083A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE6DC6B-D366-439C-8070-448282083A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE6DC6B-D366-439C-8070-448282083A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE6DC6B-D366-439C-8070-448282083A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566C1423-3D74-4EB0-99E0-EA2B255769D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566C1423-3D74-4EB0-99E0-EA2B255769D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566C1423-3D74-4EB0-99E0-EA2B255769D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566C1423-3D74-4EB0-99E0-EA2B255769D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53654913-9315-433D-B15C-2993A1294841}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://lucapignato.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GiGCodeChallenge.Domain\\GiGCodeChallenge.Domain.csproj
+		SccProjectName1 = GiGCodeChallenge.Domain
+		SccLocalPath1 = GiGCodeChallenge.Domain
+		SccProjectUniqueName2 = GiGCodeChallenge.Services\\GiGCodeChallenge.Services.csproj
+		SccProjectName2 = GiGCodeChallenge.Services
+		SccLocalPath2 = GiGCodeChallenge.Services
+		SccProjectUniqueName3 = GiGCodeChallenge.Tests\\GiGCodeChallenge.Tests.csproj
+		SccProjectName3 = GiGCodeChallenge.Tests
+		SccLocalPath3 = GiGCodeChallenge.Tests
+		SccProjectUniqueName4 = GiGCodeChallenge.KafkaCarsProducer\\GiGCodeChallenge.KafkaCarsProducer.csproj
+		SccProjectName4 = GiGCodeChallenge.KafkaCarsProducer
+		SccLocalPath4 = GiGCodeChallenge.KafkaCarsProducer
+		SccProjectUniqueName5 = GiGCodeChallenge.KafkaCarsConsumer\\GiGCodeChallenge.KafkaCarsConsumer.csproj
+		SccProjectName5 = GiGCodeChallenge.KafkaCarsConsumer
+		SccLocalPath5 = GiGCodeChallenge.KafkaCarsConsumer
+	EndGlobalSection
+EndGlobal

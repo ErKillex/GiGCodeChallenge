@@ -1,0 +1,10 @@
+﻿2019-10-14T19:58:33.0764097+02:00;Thread#1;Info;Reading test run result from Json file "C:\Users\Killex\AppData\Local\Temp\tmpD098.tmp".
+2019-10-14T19:58:33.0843882+02:00;Thread#1;Info;Successfully read test run result from Json file "C:\Users\Killex\AppData\Local\Temp\tmpD098.tmp"
+2019-10-14T19:58:33.0843882+02:00;Thread#1;Info;Deserializing test run result
+2019-10-14T19:58:33.4444266+02:00;Thread#1;Info;Successfully deserialized test run result
+2019-10-14T19:58:33.4444266+02:00;Thread#1;Info;Loading test run result
+2019-10-14T19:58:33.4633754+02:00;Thread#1;Info;Successfully loaded test run result
+2019-10-14T19:58:33.4723514+02:00;Thread#1;Info;creating 1 report(s)
+2019-10-14T19:58:33.4723514+02:00;Thread#1;Info;generate Report ReportTemplate.cshtml
+2019-10-14T19:58:34.1876232+02:00;Thread#1;Info;Finished generating reports.
+========== End of log file ==========
